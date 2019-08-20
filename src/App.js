@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
-import { ReactTunesPlayerContainer } from 'react-tunes-player';
+import ReactTunesPlayer from 'react-tunes-player';
 
 class App extends Component {
   render() {
@@ -15,7 +15,7 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
 
-        <ReactTunesPlayerContainer
+        <ReactTunesPlayer
           tunes={[
             {
               tune: "/assets/audio/the_lego_tune.ogg",
